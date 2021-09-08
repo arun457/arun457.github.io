@@ -1,113 +1,148 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from cwithjen.somee.com/6_Operators.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Sep 2021 13:43:19 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Arun Shrestha</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+
+  <link href="Bootstrap/bootstrap.min.css" rel="stylesheet" />
+
+  <link href="Bootstrap/MyStyle.css" rel="stylesheet" />
+  <link rel="stylesheet" href="prism.css" type="text/css">
+  <title>cwithjen</title>
+
+
+
+
 </head>
 
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+      </ul>
+
     </div>
-    <!-- End #mobile-menu-toggle -->
 
-    <!-- End header -->
+  </nav>
 
-
-    <!-- End #lead -->
+  <div class="p-3">
 
 
-    <!-- End #education -->
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="Notes-tab" data-toggle="tab" href="#Notes" role="tab" aria-controls="Outlines"
+          aria-selected="true">Code</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="Notes-tab" data-toggle="tab" href="#Questions" role="tab"
+          aria-controls="Questions" aria-selected="false">Video</a>
+      </li>
+    </ul>
 
-    <div id="projects" class="background-alt">
-        <h2 class="heading"></h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/3Dmodel.ico" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <pre><code class="language-C">
-                            <!-- code starts -->
-                    //Write an interactive program that reads positive numbers until user enters “no“
-                    //and then sum the numbers divisible by 4 that lie between the range of 10 and
-                    //50 and finally display the count, sum & average value. [5] [065]
-                    
-                    #include &ltstdio.h>
-                    #include &ltconio.h>
-                    #include &ltstdlib.h>
-                    #include &ltstring.h>
-                    
-                    void main()
-                    {
-                        int n, sum = 0, count = 0;
-                        float avg;
-                        char no[20] = "no";
-                        char choice[20];
-                        system("cls");
-                        printf("Enter a number or enter \"no\" to terminate the program : \n");
-                        do
-                        {
-                            printf("Do you want to enter another number (yes/no)? : ");
-                            scanf("%s", choice);
-                            if (strcmp(choice, no) != 0)
-                            {
-                                printf("\nEnter a Number : ");
-                                scanf("%d", &n);
-                                if (n % 4 == 0 && n > 10 && n < 50)
-                                {
-                                    sum = sum + n;
-                                    count++;
-                                }
-                            }
-                    
-                        } while (strcmp(choice, no) != 0);
-                        printf("The number of numbers divisible by 4 is : %d\n", count);
-                        printf("The sum of numbers divisible by 4 is : %d\n", sum);
-                        avg = (float)sum / count;
-                        printf("The average of them is : %f\n", avg);
-                    }
-                    
-                            <!-- code ends -->
-                        </code></pre>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="Questions" role="tabpanel" aria-labelledby="Questions-tab">
 
-                        <h1>This part will be used to display related program video tutorial</h1>
-                        <h1>Remove code below this line to remove this video is no video is available</h1>
+        <div class="row">
 
-                        <!-- Embedding video -->
-                        <iframe width="1200" height="547" src="https://www.youtube.com/embed/qrCQT5kfSpw"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                        <!-- embedding video finish -->
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+          <div class="p-3 col-lg-6 col-md-12">
 
+            <!-- Embedding video -->
+            <iframe width="1200" height="547" src="https://www.youtube.com/embed/qrCQT5kfSpw"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <!-- embedding video finish -->
 
-                <!-- ----------------------end of whole project-------------------->
-            </div>
+          </div>
+
         </div>
+
+      </div>
+
+      <div class="tab-pane fade" id="Notes" role="tabpanel" aria-labelledby="Notes-tab">
+
+        <pre><code class="language-C">
+          <!-- code starts -->
+    //Write an interactive program that reads positive numbers until user enters “no“
+    //and then sum the numbers divisible by 4 that lie between the range of 10 and
+    //50 and finally display the count, sum & average value. [5] [065]
+    
+    #include &ltstdio.h>
+    #include &ltconio.h>
+    #include &ltstdlib.h>
+    #include &ltstring.h>
+    
+    void main()
+    {
+        int n, sum = 0, count = 0;
+        float avg;
+        char no[20] = "no";
+        char choice[20];
+        system("cls");
+        printf("Enter a number or enter \"no\" to terminate the program : \n");
+        do
+        {
+            printf("Do you want to enter another number (yes/no)? : ");
+            scanf("%s", choice);
+            if (strcmp(choice, no) != 0)
+            {
+                printf("\nEnter a Number : ");
+                scanf("%d", &n);
+                if (n % 4 == 0 && n > 10 && n < 50)
+                {
+                    sum = sum + n;
+                    count++;
+                }
+            }
+    
+        } while (strcmp(choice, no) != 0);
+        printf("The number of numbers divisible by 4 is : %d\n", count);
+        printf("The sum of numbers divisible by 4 is : %d\n", sum);
+        avg = (float)sum / count;
+        printf("The average of them is : %f\n", avg);
+    }
+    
+        <!-- code ends -->
+        </code></pre>
+
+
+
+
+
+      </div>
+
     </div>
-    <!-- End #projects -->
+
+  </div>
+
+
+  </div>
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
-    <!-- <script src="js/darktheme.js"></script> -->
+  <script src="Bootstrap/jquery-3.5.1.slim.min.js"></script>
+  <script src="Bootstrap/bootstrap.min.js"></script>
+  <script src="Bootstrap/popper.min.js"></script>
+  <script src="prism.js"></script>
+
 </body>
+
+<!-- Mirrored from cwithjen.somee.com/6_Operators.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Sep 2021 13:43:19 GMT -->
 
 </html>
