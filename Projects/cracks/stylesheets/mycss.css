@@ -1,0 +1,23 @@
+h1{
+
+  font-size: 100px;
+  font-style: italic;
+  text-align: center;
+  margin: 260px auto 0;
+  color: #fff;
+}
+
+html{
+  background-image: url(../images/background.jpg);
+  background-color: grey;
+  cursor: url(../images/a.cur), auto;
+  font-weight: bold;
+}
+
+p{
+  font-size: 100px;
+  font-style: italic;
+  text-align: center;
+  margin:50px;
+  color: #fff;
+}

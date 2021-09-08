@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>3D Model</title>
+    <link rel="stylesheet" href="model-viewer-demo.css">
+    <link rel="shortcut icon" href="images/Phonebook.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div id="holder">
+        <div id="model">
+            <h1><a href="orthographic_projections\ortho_FigureP6.7.html">Click here for Orthographic Projection</a></h1>
+            <model-viewer src="FigureP6.7.glb" alt="A 3D model of a robot" camera-controls=""
+                background-color="#455A64"></model-viewer>
+                <h1 class="sample-text">Orthographic Projection</h1>
+        </div>
+    </div>
+
+    <!-- Loads model-viewer for modern browsers -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+    <!-- Loads model-viewer for older browsers -->
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+</body>
+
+</html>

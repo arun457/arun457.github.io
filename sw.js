@@ -8,6 +8,8 @@ const assets = [
     '/images/',
     '/libs/',
     '/links/',
+    '/Projects/',
+    '/codetest/',
     '/scss/',
     '/favicon.ico',
     '/gulpfile.js',

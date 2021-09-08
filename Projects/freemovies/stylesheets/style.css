@@ -1,0 +1,28 @@
+h1{
+
+font-size: 50px;
+font-style: italic;
+margin: 0 50px;  
+border: 2px solid black;
+border-radius: 18px;
+background-color: rgba(153, 204, 255, 0.50);;
+text-shadow: 0 0 3px #FF0000, 0 0 5px  #3399ff;
+}
+html{
+  background-image: url(../images/background.png);
+  background-color: #f4e9e9;
+  cursor: url(../images/a.cur), auto;
+  font-weight: bold;
+}
+img{    
+margin: 50px 50px 0px 50px;
+/* border: 2px solid black; */
+height: 100px;
+width: 200px;
+border-radius: 18px;
+}
+
+body{
+text-align: center;
+}
+
